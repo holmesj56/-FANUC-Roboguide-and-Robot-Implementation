@@ -1,5 +1,5 @@
 
-# 🦾 FANUC Roboguide Digital Workcells -  Project 
+# 🦾 FANUC Roboguide Digital Workcells 
 This repository documents the creation of three digital robotic workcells designed and simulated in **FANUC Roboguide** for different industrial automation applications: **palletizing, machine tending, and assembly (kitting)**. Each cell was developed to meet specific cycle time and safety requirements, with realistic robot and EOAT (End of Arm Tooling) selections, proper I/O integration, animated gripper and part movements, and cell status indicators. The video demonstration of the palletizing task is included at the end.
 
 ---
