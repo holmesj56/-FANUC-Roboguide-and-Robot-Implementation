@@ -3,6 +3,22 @@
 This repository documents the creation of three digital robotic workcells designed and simulated in **FANUC Roboguide** for different industrial automation applications: **palletizing, machine tending, and assembly (kitting)**. Each cell was developed to meet specific cycle time and safety requirements, with realistic robot and EOAT (End of Arm Tooling) selections, proper I/O integration, animated gripper and part movements, and cell status indicators. The video demonstration of the palletizing task is included at the end.
 
 ---
+## 📦 CAD Files Used
+
+The following `.IGS` CAD files were imported into **FANUC Roboguide** to construct and simulate the digital workcells:
+
+| File Name | Description | Usage |
+|-----------|-------------|-------|
+| **Cube.IGS** | Uniform cube part | Used for the **palletizing** task; picked from conveyor and placed into a box. |
+| **Box.IGS** | Container for palletized parts | Represents the destination container for cubes in the palletizing cell. |
+| **Kitting opperation.IGS** | Full kit tray layout | Base model used in the **kitting** operation where 5 distinct parts are placed. |
+| **Tray.IGS** | Part tray for components | Used for organizing parts during **kitting** or **machine tending**. |
+| **Circle.IGS** | Circular part | One of the components placed during **kitting**. |
+| **Square.IGS** | Square part | One of the components placed during **kitting**. |
+| **Hexagon.IGS** | Hexagonal part | One of the components placed during **kitting**. |
+| **Triangle.IGS** | Triangular part | One of the components placed during **kitting**. |
+
+These files were essential in building accurate simulations and validating robot path planning, gripper actions, and part placements within each cell.
 
 ## 1️⃣ Palletizing Cubes from Conveyor
 
